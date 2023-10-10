@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "compile",
+      "setup": "",
+      "run": "make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test expression",
+      "setup": "",
+      "run": "./postfix",
+      "input": "(5 / 2) * (6 - 3 * 1)",
+      "output": "52/631*-*\r\n7.5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
